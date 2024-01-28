@@ -32,7 +32,8 @@
 // output: isLeader = false, 400;
 // taka = isLeader === false ? console.log(0) : console.log(taka + 100);
 // ---------------------------------------------
-// taka = isLeader === true ? 0 : taka + 100; Not working
+// taka = isLeader === false ? 0 : taka + 100;
+// console.log(taka);
 
 // -----------------Nested ternary----------------
 // let taka = 1100;
