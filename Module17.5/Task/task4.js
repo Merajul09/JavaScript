@@ -1,0 +1,10 @@
+const numbers = ['ami', 'tmi', 'ora'];
+const num = [29, 22, 21];
+const nums = [];
+const boolean = true;
+const food = 'ros o gol la';
+console.log(Array.isArray(numbers));
+console.log(Array.isArray(num));
+console.log(Array.isArray(nums));
+console.log(Array.isArray(boolean));
+console.log(Array.isArray(food));
