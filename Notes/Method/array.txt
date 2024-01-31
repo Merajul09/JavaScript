@@ -1,0 +1,111 @@
+// -------------------length------------------
+// ata diye element er vitor koyta word ase seta dekhar jonno use kora hoy.
+
+// let para = ["JavaScript", "React", "HTML", "CSS"];
+// let a = para.length;
+// console.log(a); // output: 4;
+
+// -------------------Push------------------
+// ata diye element er ses a kono word add korar jonno use kora hoy.
+
+// let para = ["JavaScript", "React", "HTML"];
+// para.push("CSS");
+// console.log(para); // output: [ 'JavaScript', 'React', 'HTML', 'CSS' ];
+
+// -------------------Pop------------------
+// ata diye element er ses a kono word delete korar jonno use kora hoy.
+
+// let para = ["JavaScript", "React", "HTML", "CSS"];
+// para.pop();
+// console.log(para); // output: [ 'JavaScript', 'React', 'HTML'];
+
+// -------------------UnShift------------------
+// ata diye element er first a kono word add korar jonno use kora hoy.
+
+// let para = ["JavaScript", "React", "HTML"];
+// para.unshift("CSS");
+// console.log(para); // output: [ 'CSS', 'JavaScript', 'React', 'HTML' ];
+
+// -------------------Shift------------------
+// ata diye element er first a kono word delete korar jonno use kora hoy.
+
+// let para = ["JavaScript", "React", "HTML", "CSS"];
+// para.shift();
+// console.log(para); // output: [ 'React', 'HTML', 'CSS' ];
+
+// -------------------slice------------------
+// ata diye element er word tule aner jonno use kora hoy.
+
+// let para = ["JavaScript", "React", "HTML", "CSS"];
+// let a = para.slice(1, 3);
+// console.log(a); // output: [ 'React', 'HTML' ];
+
+// ---------------------Splice-------------------
+// ata diye kono element er vitor thake kono word delete korte use kora hoy.
+
+// let para = ["JavaScript", "React", "HTML", "CSS"];
+// para.splice(1, 2);
+// console.log(para); // output: [ 'JavaScript', 'CSS' ];
+// let para2 = ["JavaScript", "React", "HTML", "CSS"];
+// para2.splice(1, 1);
+// console.log(para2); // output: [ 'JavaScript', 'HTML', 'CSS' ];
+
+// -------------------indexOf-------------------
+// ata diye element er position index dekha jay
+
+// let para = ["JavaScript", "React", "HTML", "CSS"];
+// let a = para.indexOf("HTML");
+// console.log(a); // output: 2;
+
+// ------------set or update value by index--------
+
+// const number = [45, 32, 56, 67, 72, 36];
+// number[2] = 912;
+// console.log(number); // output: [45, 32, 912, 67, 72, 36];
+
+// -------------------join-------------------
+// ata diye array k text a convert kora hoy and caile maj khane gap and symbol add kora jay.
+
+// let para = ["JavaScript", "React", "HTML", "CSS"];
+// let a = para.join("");
+// console.log(a); // output: JavaScriptReactHTMLCSS;
+// let b = para.join(" ");
+// console.log(b); // output: JavaScript React HTML CSS;
+// let c = para.join("|");
+// console.log(c); // output: JavaScript|React|HTML|CSS;
+
+// -------------------concat-------------------
+// ata diye multiple array k akta array a convert kora hoy.
+
+// let para = ["JavaScript"];
+// let para2 = ["HTML"];
+// let para3 = ["CSS"];
+// let a = para.concat(para2, para3);
+// console.log(a); // output: [ 'JavaScript', 'HTML', 'CSS' ];
+
+// -------------------toString------------------
+// ata element k string a convert kore fele jar fole array er kono method r kaj kore nah.
+
+// let para = ["javascript", "html", "css"];
+// let a = para.toString();
+// console.log(a); // output: javascript,html,css;
+
+// --------------includes------------------
+// ata dekhabe value ta array er vitor ase kina
+
+// const numbers = ['ami', 'tmi', 'ora'];
+// console.log(numbers.includes('tmi')); // output: true;
+
+// -----------isArray---------------
+// ata dekhabe Array kina element ta
+
+// const numbers = ['ami', 'tmi', 'ora'];
+// const num = [29, 22, 21];
+// const nums = [];
+// const boolean = true;
+// const food = 'ros o gol la';
+// console.log(Array.isArray(numbers)); // output: true;
+// console.log(Array.isArray(num)); // output: true;
+// console.log(Array.isArray(nums)); // output: true;
+// console.log(Array.isArray(boolean)); // output: false;
+// console.log(Array.isArray(food)); // output: false;

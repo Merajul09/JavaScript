@@ -1,0 +1,193 @@
+// -------------------length------------------
+// ata diye element er vitor koyta word ase space saho seta dekhar jonno use kora hoy.
+
+// let para = "JavaScript is a Great Language";
+// let a = para.length;
+// console.log(a); // output: 30;
+
+// -------------------toLowerCase----------------
+// ata diye element er vitor er sentence k small letter a convert kora hoy.
+
+// let para = "JavaScript is a Great Language";
+// let a = para.toLowerCase();
+// console.log(a); // output: javascript is a great language;
+
+// -------------------toUpperCase----------------
+// ata diye element er vitor er sentence k capital letter a convert kora hoy.
+
+// let para = "JavaScript is a Great Language";
+// let a = para.toUpperCase();
+// console.log(a); // output: JAVASCRIPT IS A GREAT LANGUAGE;
+
+// -----------------includes-----------------
+// ata diye search er kaj kora hoy, element er vitor kono word search diye word ta k khoje pele ata true return korbe, ata holo case sensitive word vul kore likhle false dekhabe.
+
+// let para = "JavaScript is a Great Language";
+// let a = para.includes('Great');
+// console.log(a); // output: true;
+// let b = para.includes('great');
+// console.log(b); // output: false;
+
+// ----------------------startsWith-------------------
+// ata diye search er kaj kora hoy kintu kono sentence er first koyekta character search deyer jonno use kora hoy.
+
+// let para = "JavaScript is a Great Language";
+// let a = para.startsWith("JavaScript");
+// console.log(a); // output: true;
+// let b = para.startsWith('Java');
+// console.log(b); // output: true;
+// let c = para.startsWith('Great');
+// console.log(c); // output: false;
+
+// ----------------------endsWith-------------------
+// ata diye search er kaj kora hoy kintu kono sentence er last koyekta character search deyer jonno use kora hoy.
+
+// let para = "JavaScript is a Great Language";
+// let a = para.endsWith("Language");
+// console.log(a); // output: true;
+// let b = para.endsWith('age');
+// console.log(b); // output: true;
+// let c = para.endsWith('Great');
+// console.log(c); // output: false;
+
+// ----------------------search--------------------
+// ata diye kono element er word search kora hoy word jodi match hoy tahole seta index number show kore j koto number position thake word ta suru hoyese match nah korle -1 show kore.
+
+// let para = "JavaScript Language";
+// let a = para.search("Language");
+// console.log(a); // output: 11;
+// let b = para.search('age');
+// console.log(b); // output: 16;
+// let c = para.search('lang');
+// console.log(c); // output: -1;
+
+// -----------------------match--------------------
+// ata diye search kora hoy element er vitor kono match word ase kina jodi thake tahole setar array banay return kore.
+
+// let para = "JavaScript is Language is Great";
+// let a = para.match(/is/g);
+// console.log(a); // output: ['is','is'];
+
+// --------------------indexOf--------------------
+// ata diye element er index number search kora hoy kato tomo index thake seta suru hoyase seta show kore.
+
+// let para = "JavaScript is Language is Great";
+// let a = para.indexOf('is');
+// console.log(a); // output: 11;
+
+// --------------------lastIndexOf--------------------
+// ata diye element er index number search kora hoy last kato tomo index thake seta suru hoyase seta show kore.
+
+// let para = "JavaScript is Language is Great";
+// let a = para.lastIndexOf('is');
+// console.log(a); // output: 23;
+
+// ----------------------replace----------------------
+// ata diye kono element er word replace kora hoy single vabe or sob gulo ak sathe.
+
+// let para = "JavaScript is Language is Great";
+// let a = para.replace('is', 'are');
+// console.log(a); // output: JavaScript are Language is Great;
+// let b = para.replace(/is/g, 'are');
+// console.log(b); // output: JavaScript are Language are Great;
+
+// ----------------------trim---------------------
+// ata diye space thakle seta k soray fele value return kore, ata dui paser space soray felbe.
+// ------trimStart holo surur diker space sorabe------
+// ------trimEnd holo seser diker space sorabe------
+
+// let para = "JavaScript ";
+// let para2 = " JavaScript ";
+// if (para.trim() === para2.trim()) {
+//     console.log('sob thik ase');
+// }
+// else {
+//     console.log('vul hoyese');
+// } // output: trim na dile vul hoyese; // output: trim dile sob thik ase;
+
+// ----------------------charAt-------------------
+// ata diye element er vitor character kato tomo index a ase seta return kore.
+
+// let para = "JavaScript is Language is Great";
+// let a = para.charAt(4);
+// console.log(a); // output: S;
+
+// ----------------------charCodeAt-------------------
+// ata diye element er vitor character er sky code kato seta return kore.
+
+// let para = "JavaScript is Language is Great";
+// let a = para.charCodeAt(4);
+// console.log(a); // output: 83;
+
+// ----------------------fromCharCode-------------------
+// ata diye sky code er value kato seta return kore.
+
+// let a = String.fromCharCode(77);
+// console.log(a); // output: M;
+
+// ---------------------concat----------------------
+// ata diye onk gulo element k aksate korar jonno use kora hoy.
+
+// let para = "JavaScript";
+// let para2 = "React";
+// let a = para.concat(' ', para2);
+// console.log(a); // output: JavaScript,React;
+
+// --------------------split-----------------------
+// ata diye element k vag kora hoy and return array diye kore.
+
+// let para = "JavaScript is a great Language";
+// let a = para.split(' ');
+// console.log(a); // output: [ 'JavaScript', 'is', 'a', 'great', 'Language' ];
+
+// --------------------repeat-----------------------
+// ata diye element k repeat kora hoy.
+
+// let para = "JavaScript is a great Language";
+// let a = para.repeat(2);
+// console.log(a); // output: JavaScript is a great LanguageJavaScript is a great Language;
+
+// -------------------slice-----------------------
+// ata diye element thake kono word er character thake kato tamo character porjonto word tule niye asbe seta return kore.
+
+// let para = "JavaScript is a great language";
+// let a = para.slice(4, 10);
+// console.log(a); // output: Script;
+// let b = para.slice(0);
+// console.log(b); // output: JavaScript is a great language;
+// let c = para.slice(-1);
+// console.log(c); // output: e;
+
+// -------------------------substr-------------------
+// ata diye slice er motoi kaj kora hoy kintu ata kato thake suru hobe and oi khan thake kato number porjonto tule return korebe ata dekhay.
+
+// let para = "JavaScript is a great language";
+// let a = para.substr(4);
+// console.log(a); // output: Script is a great language;
+// let b = para.substr(4, 6);
+// console.log(b); // output: Script;
+
+// -------------------------substring-------------------
+// ata diye slice er motoi kaj kora hoy kintu ata kato thake suru hobe and oi khan thake kato number index porjonto tulte hobe tar ager index return korebe ata dekhay.
+
+// let para = "JavaScript is a great language";
+// let a = para.substring(4);
+// console.log(a); // output: Script is a great language;
+// let b = para.substring(4, 7);
+// console.log(b); // output: Scr;
+
+// ---------------------toString--------------------
+// ata number k String a convert kore day.
+
+// let num = 12;
+// let a = num.toString();
+// console.log(num);
+// console.log(a);
+
+// ------------------padStart---------------
+// ------------------padEnd---------------
+// let num = '12';
+// let a = num.padStart(5, 'ami');
+// let b = num.padEnd(5, 'tmi');
+// console.log(a); // output: ami12;
+// console.log(b); // output: 12tmi;

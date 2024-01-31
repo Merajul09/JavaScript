@@ -1,7 +1,7 @@
 // -----------length----------
 // show how many value in the array
 
-const number = [45, 32, 56, 67, 72, 36];
+// const number = [45, 32, 56, 67, 72, 36];
 // console.log(number.length); // output: 6;
 
 // ---------------indexOf------------
